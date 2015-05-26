@@ -118,6 +118,7 @@
 - (BOOL)isFirstResponder;
 
 - (BOOL)hasText;
+- (CGFloat)measureHeight;
 - (void)scrollRangeToVisible:(NSRange)range;
 
 // call to force a height change (e.g. after you change max/min lines)
